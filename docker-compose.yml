@@ -1,0 +1,11 @@
+services:
+  nodejs-user-auth:
+    image: usuario001/docker-base-react:latest
+    container_name: nodejs-auth
+    working_dir: /home/jp/app
+    volumes:
+      - .:/home/jp/app
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true
