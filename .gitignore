@@ -1,0 +1,30 @@
+# Ignorar la carpeta de dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de configuración local o sensibles
+config.js
+.env
+.env.local
+
+# Ignorar archivos de bloqueo de dependencias (opcional, depende de tu flujo de trabajo)
+package-lock.json
+
+# Ignorar la carpeta de la base de datos (si no debe ser versionada)
+db/
+
+# Ignorar la carpeta de configuración de VS Code
+.vscode/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de caché
+.cache/
+
+# Ignorar archivos de entorno de desarrollo
+.DS_Store
+dist/
+build/
+
+# Ignorar archivos generados automáticamente
+coverage/
